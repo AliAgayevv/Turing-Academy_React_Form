@@ -1,0 +1,47 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+body
+{
+    background-color: black;
+}
+
+#form-section
+{
+    height: 100vh;
+    color: white;
+    margin-top: 10px;
+}
+
+#form-section form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-section--label
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.form-section--input
+{
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#form-section--text-area
+{
+    width: 200px;
+    height: 30px;
+    margin-left: 5px;
+}
+
